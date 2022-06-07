@@ -11,7 +11,6 @@ public class KafkaTopicConfig {
 
     @Bean
     public NewTopic randomTopic(){
-        return TopicBuilder.name("topic1")
-                .build();
+        return TopicBuilder.name("topic1").build();
     }
 }
