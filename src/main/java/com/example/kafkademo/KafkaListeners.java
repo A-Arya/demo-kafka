@@ -10,6 +10,6 @@ public class KafkaListeners {
 
     )
     void listener(String data){
-        System.out.println("Listener received" + data);
+        System.out.println("Listener received " + data);
     }
 }
